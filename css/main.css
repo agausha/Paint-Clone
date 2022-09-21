@@ -1,1 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: hsl(0deg, 0%, 69%);
+  font-family: "Oswald", sans-serif;
+  overflow: hidden;
+}/*# sourceMappingURL=main.css.map */

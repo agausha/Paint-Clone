@@ -12,3 +12,14 @@ $slider-color: hsl(0, 0%, 69%);
 $thumb-color: hsl(0, 0%, 18%);
 $black-color: hsl(0, 0%, 0%);
 $clear-color: hsl(0, 100%, 58%);
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: $background-color;
+  font-family: 'Oswald', sans-serif;
+  overflow: hidden;
+}
