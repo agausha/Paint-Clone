@@ -36,4 +36,8 @@ body {
 .fas:hover,
 .far:hover {
   filter: brightness(90%);
+}
+
+.fa-fill-drip {
+  cursor: default;
 }/*# sourceMappingURL=main.css.map */
