@@ -44,3 +44,12 @@
   top: 9px;
   left: 5px;
 }
+
+.active-tool > span {
+  background-color: $primary-color;
+  border-radius: 5px;
+  padding: 2.5px 16px;
+  color: $text-color;
+  font-size: 20px;
+  user-select: none;
+}
