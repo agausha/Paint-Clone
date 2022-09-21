@@ -77,4 +77,8 @@ body {
   background-color: hsl(0deg, 0%, 45%);
   height: 44px;
   width: 345px;
+}
+
+.brush > * {
+  margin-left: 10px;
 }/*# sourceMappingURL=main.css.map */
