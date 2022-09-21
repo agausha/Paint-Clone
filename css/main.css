@@ -63,4 +63,12 @@ body {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+}
+
+.tool {
+  position: relative;
+  top: 3px;
+}
+.tool:not(:first-child) {
+  margin-left: 8px;
 }/*# sourceMappingURL=main.css.map */
