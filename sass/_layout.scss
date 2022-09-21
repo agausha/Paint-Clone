@@ -37,3 +37,10 @@
 .fa-trash-alt:hover {
   color: $alt-color;
 }
+
+// TOOLS 
+.active-tool {
+  position: absolute;
+  top: 9px;
+  left: 5px;
+}
