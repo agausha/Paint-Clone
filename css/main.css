@@ -18,4 +18,22 @@ body {
   background-color: hsl(0deg, 0%, 50%);
   display: flex;
   justify-content: center;
+}
+
+.fas,
+.far {
+  font-size: 25px;
+  position: relative;
+  top: 5px;
+  background-color: hsl(0deg, 0%, 32%);
+  color: hsl(0deg, 0%, 100%);
+  padding: 5px;
+  border-radius: 5px;
+  width: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+.fas:hover,
+.far:hover {
+  filter: brightness(90%);
 }/*# sourceMappingURL=main.css.map */

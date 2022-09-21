@@ -9,3 +9,22 @@
   display: flex;
   justify-content: center;
 }
+
+// FONT AWESOME ICONS 
+.fas,
+.far {
+  font-size: 25px;
+  position: relative;
+  top: 5px;
+  background-color: $primary-color;
+  color: $text-color;
+  padding: 5px;
+  border-radius: 5px;
+  width: 40px;
+  text-align: center;
+  cursor: pointer;
+
+  &:hover {
+    filter: brightness(90%);
+  }
+}
