@@ -43,3 +43,11 @@
   cursor: pointer;
   outline: none;
 }
+
+// CANVAS 
+canvas#canvas {
+  position: absolute;
+  top: 50px;
+  cursor: crosshair;
+  z-index: 8;
+}

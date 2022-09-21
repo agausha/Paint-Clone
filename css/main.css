@@ -49,6 +49,13 @@ body {
   outline: none;
 }
 
+canvas#canvas {
+  position: absolute;
+  top: 50px;
+  cursor: crosshair;
+  z-index: 8;
+}
+
 .top-bar {
   padding-left: 15px;
   height: 50px;
