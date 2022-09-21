@@ -32,3 +32,8 @@
 .fa-fill-drip {
   cursor: default;
 }
+
+.fa-undo-alt:hover,
+.fa-trash-alt:hover {
+  color: $alt-color;
+}

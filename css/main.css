@@ -40,4 +40,9 @@ body {
 
 .fa-fill-drip {
   cursor: default;
+}
+
+.fa-undo-alt:hover,
+.fa-trash-alt:hover {
+  color: hsl(0deg, 74%, 51%);
 }/*# sourceMappingURL=main.css.map */
