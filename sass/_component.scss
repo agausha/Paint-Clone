@@ -1,0 +1,33 @@
+/////////////////////////////////////////
+// CUSTOM SCROLLBAR
+.slider {
+  -webkit-appearance: none;
+  position: relative;
+  left: -8px;
+  width: 100px;
+  height: 10px;
+  background: $slider-color;
+  outline: none;
+  opacity: 0.7;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background: $thumb-color;
+  }
+
+  &::-moz-range-thumb {
+    width: 10px;
+    height: 10px;
+    background: $thumb-color;
+  }
+}
