@@ -171,3 +171,6 @@ canvas.addEventListener('mouseup', () => {
   isMouseDown = false;
   console.log('mouse is unclicked');
 });
+
+// Save to Local Storage
+saveStorageBtn.addEventListener('click', () => {});
