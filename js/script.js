@@ -86,3 +86,6 @@ function createCanvas() {
   body.appendChild(canvas);
   switchToBrush();
 }
+
+// Clear Canvas
+clearCanvasBtn.addEventListener('click', () => {});
