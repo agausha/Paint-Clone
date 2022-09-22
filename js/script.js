@@ -179,3 +179,6 @@ saveStorageBtn.addEventListener('click', () => {
     activeToolEl.textContent = 'Canvas Saved';
      brushTimeSetTimeout(BRUSH_TIME);
 });
+
+// Load from Local Storage
+loadStorageBtn.addEventListener('click', () => {});
