@@ -114,4 +114,4 @@ function restoreCanvas() {
   }
 }
 
-function storeDrawn() {}
+function storeDrawn(x, y, size, color, erase) {}
