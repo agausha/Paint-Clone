@@ -88,4 +88,6 @@ function createCanvas() {
 }
 
 // Clear Canvas
-clearCanvasBtn.addEventListener('click', () => {});
+clearCanvasBtn.addEventListener('click', () => {
+  createCanvas();
+});
