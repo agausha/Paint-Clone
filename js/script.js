@@ -90,4 +90,5 @@ function createCanvas() {
 // Clear Canvas
 clearCanvasBtn.addEventListener('click', () => {
   createCanvas();
+  drawnArray = [];
 });
