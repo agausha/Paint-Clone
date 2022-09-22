@@ -201,3 +201,6 @@ clearStorageBtn.addEventListener('click', () => {
   activeToolEl.textContent = 'Local Storage Cleared';
    brushTimeSetTimeout(BRUSH_TIME);
 });
+
+// Download Image
+downloadBtn.addEventListener('click', () => {});
