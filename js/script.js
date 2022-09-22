@@ -128,4 +128,4 @@ function storeDrawn(x, y, size, color, erase) {
 }
 
 // Get Mouse Position
-function getMousePosition() {}
+function getMousePosition(event) {}
