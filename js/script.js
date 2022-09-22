@@ -93,4 +93,5 @@ clearCanvasBtn.addEventListener('click', () => {
   drawnArray = [];
   // Active Tool
   activeToolEl.textContent = 'Canvas Cleared';
+  brushTimeSetTimeout(BRUSH_TIME);
 });
