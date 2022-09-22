@@ -91,4 +91,6 @@ function createCanvas() {
 clearCanvasBtn.addEventListener('click', () => {
   createCanvas();
   drawnArray = [];
+  // Active Tool
+  activeToolEl.textContent = 'Canvas Cleared';
 });
