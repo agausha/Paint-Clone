@@ -51,6 +51,9 @@ bucketColorBtn.addEventListener('change', () => {
   createCanvas();
 });
 
+// Switch back to Brush
+function switchToBrush() {}
+
 // Create Canvas
 function createCanvas() {
   canvas.width = window.innerWidth;
