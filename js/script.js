@@ -96,3 +96,6 @@ clearCanvasBtn.addEventListener('click', () => {
   activeToolEl.textContent = 'Canvas Cleared';
   brushTimeSetTimeout(BRUSH_TIME);
 });
+
+// Draw what is stored in DrawnArray
+function restoreCanvas() {}
