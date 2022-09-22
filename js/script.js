@@ -128,4 +128,10 @@ function storeDrawn(x, y, size, color, erase) {
 }
 
 // Get Mouse Position
-function getMousePosition(event) {}
+function getMousePosition(event) {
+  const boundaries = canvas.getBoundingClientRect();
+  return {
+    x: event.clientX - boundaries.left,
+    y: event.clientY - boundaries.top,
+  };
+}
