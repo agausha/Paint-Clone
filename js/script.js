@@ -213,3 +213,6 @@ downloadBtn.addEventListener('click', () => {
 
 // Event Listener
 brushIcon.addEventListener('click', switchToBrush);
+
+// On Load
+createCanvas();
