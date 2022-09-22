@@ -114,4 +114,15 @@ function restoreCanvas() {
   }
 }
 
-function storeDrawn(x, y, size, color, erase) {}
+// Store Drawn Lines in DrawnArray
+function storeDrawn(x, y, size, color, erase) {
+  const line = {
+    x,
+    y,
+    size,
+    color,
+    erase,
+  };
+  console.log(line);
+  drawnArray.push(line);
+}
