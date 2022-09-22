@@ -46,4 +46,6 @@ brushColorBtn.addEventListener('change', () => {
 });
 
 // Setting Background Color
-bucketColorBtn.addEventListener('change', () => {});
+bucketColorBtn.addEventListener('change', () => {
+  bucketColor = `#${bucketColorBtn.value}`;
+});
