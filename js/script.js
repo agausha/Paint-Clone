@@ -32,3 +32,6 @@ function displayBrushSize() {
     brushSize.textContent = brushSlider.value;
   }
 }
+
+// Setting Brush Size
+brushSlider.addEventListener('change', () => {});
