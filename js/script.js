@@ -113,3 +113,5 @@ function restoreCanvas() {
     context.stroke();
   }
 }
+
+function storeDrawn() {}
