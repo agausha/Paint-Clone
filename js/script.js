@@ -167,4 +167,7 @@ canvas.addEventListener('mousemove', (event) => {
 });
 
 // Mouse Up
-canvas.addEventListener('mouseup', () => {});
+canvas.addEventListener('mouseup', () => {
+  isMouseDown = false;
+  console.log('mouse is unclicked');
+});
