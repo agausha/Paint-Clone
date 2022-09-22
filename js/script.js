@@ -181,4 +181,15 @@ saveStorageBtn.addEventListener('click', () => {
 });
 
 // Load from Local Storage
-loadStorageBtn.addEventListener('click', () => {});
+loadStorageBtn.addEventListener('click', () => {
+  if (localStorage.getItem('savedCanvas')) {
+    drawnArray = JSON.parse(localStorage.savedCanvas);
+    restoreCanvas();
+  // Active Tool
+    activeToolEl.textContent = 'Canvas Loaded';
+     brushTimeSetTimeout(BRUSH_TIME);
+  } else {
+    activeToolEl.textContent = 'No Canvas Found';
+     brushTimeSetTimeout(BRUSH_TIME);
+  }
+});
