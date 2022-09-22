@@ -50,3 +50,6 @@ bucketColorBtn.addEventListener('change', () => {
   bucketColor = `#${bucketColorBtn.value}`;
   createCanvas();
 });
+
+// Create Canvas
+function createCanvas() {}
