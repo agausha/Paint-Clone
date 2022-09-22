@@ -60,6 +60,7 @@ function switchToBrush() {
   currentColor = `#${brushColorBtn.value}`;
   currentSize = 10;
   brushSlider.value = 10;
+  displayBrushSize();
 }
 
 // Create Canvas
