@@ -165,3 +165,6 @@ canvas.addEventListener('mousemove', (event) => {
     storeDrawn(undefined);
   }
 });
+
+// Mouse Up
+canvas.addEventListener('mouseup', () => {});
