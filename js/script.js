@@ -195,4 +195,9 @@ loadStorageBtn.addEventListener('click', () => {
 });
 
 // Clear Local Storage
-clearStorageBtn.addEventListener('click', () => {});
+clearStorageBtn.addEventListener('click', () => {
+  localStorage.removeItem('savedCanvas');
+  // Active Tool
+  activeToolEl.textContent = 'Local Storage Cleared';
+   brushTimeSetTimeout(BRUSH_TIME);
+});
