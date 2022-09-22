@@ -52,7 +52,15 @@ bucketColorBtn.addEventListener('change', () => {
 });
 
 // Switch back to Brush
-function switchToBrush() {}
+function switchToBrush() {
+  isEraser = false;
+  activeToolEl.textContent = 'Brush';
+  brushIcon.style.color = 'black';
+  eraser.style.color = 'white';
+  currentColor = `#${brushColorBtn.value}`;
+  currentSize = 10;
+  brushSlider.value = 10;
+}
 
 // Create Canvas
 function createCanvas() {
