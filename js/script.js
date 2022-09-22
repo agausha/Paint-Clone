@@ -203,4 +203,10 @@ clearStorageBtn.addEventListener('click', () => {
 });
 
 // Download Image
-downloadBtn.addEventListener('click', () => {});
+downloadBtn.addEventListener('click', () => {
+  downloadBtn.href = canvas.toDataURL('image/jpeg', 1);
+  downloadBtn.download = 'Paint-example.jpeg'
+  // Active Tool
+  activeToolEl.textContent = 'Image File Saved';
+   brushTimeSetTimeout(BRUSH_TIME);
+});
