@@ -42,4 +42,5 @@ brushSlider.addEventListener('change', () => {
 // Setting Brush Color
 brushColorBtn.addEventListener('change', () => {
   isEraser = false;
+  currentColor = `#${brushColorBtn.value}`;
 });
