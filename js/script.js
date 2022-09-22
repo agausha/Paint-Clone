@@ -193,3 +193,6 @@ loadStorageBtn.addEventListener('click', () => {
      brushTimeSetTimeout(BRUSH_TIME);
   }
 });
+
+// Clear Local Storage
+clearStorageBtn.addEventListener('click', () => {});
