@@ -51,6 +51,9 @@ bucketColorBtn.addEventListener('change', () => {
   createCanvas();
 });
 
+// Eraser
+eraser.addEventListener('click', () => {});
+
 // Switch back to Brush
 function switchToBrush() {
   isEraser = false;
