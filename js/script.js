@@ -52,7 +52,14 @@ bucketColorBtn.addEventListener('change', () => {
 });
 
 // Eraser
-eraser.addEventListener('click', () => {});
+eraser.addEventListener('click', () => {
+  isEraser = true;
+  brushIcon.style.color = 'white';
+  eraser.style.color = 'black';
+  activeToolEl.textContent = 'Eraser';
+  currentColor = bucketColor;
+  currentSize = 50;
+});
 
 // Switch back to Brush
 function switchToBrush() {
