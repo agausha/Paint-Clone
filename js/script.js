@@ -8,3 +8,4 @@ const bucketColorBtn = document.getElementById('bucket-color');
 const eraser = document.getElementById('eraser');
 const clearCanvasBtn = document.getElementById('clear-canvas');
 const saveStorageBtn = document.getElementById('save-storage');
+const loadStorageBtn = document.getElementById('load-storage');
