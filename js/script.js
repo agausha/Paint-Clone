@@ -38,3 +38,8 @@ brushSlider.addEventListener('change', () => {
   currentSize = brushSize.value;
   displayBrushSize();
 });
+
+// Setting Brush Color
+brushColorBtn.addEventListener('change', () => {
+  isEraser = false;
+});
