@@ -173,4 +173,9 @@ canvas.addEventListener('mouseup', () => {
 });
 
 // Save to Local Storage
-saveStorageBtn.addEventListener('click', () => {});
+saveStorageBtn.addEventListener('click', () => {
+  localStorage.setItem('savedCanvas', JSON.stringify(drawnArray));
+    // Active Tool
+    activeToolEl.textContent = 'Canvas Saved';
+     brushTimeSetTimeout(BRUSH_TIME);
+});
