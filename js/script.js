@@ -146,3 +146,6 @@ canvas.addEventListener('mousedown', (event) => {
   context.lineCap = 'round';
   context.strokeStyle = currentColor;
 });
+
+// Mouse Move
+canvas.addEventListener('mousemove', (event) => {});
