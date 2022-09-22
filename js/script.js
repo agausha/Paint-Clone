@@ -135,3 +135,6 @@ function getMousePosition(event) {
     y: event.clientY - boundaries.top,
   };
 }
+
+// Mouse Down
+canvas.addEventListener('mousedown', (event) => {});
