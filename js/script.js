@@ -63,7 +63,9 @@ function switchToBrush() {
   displayBrushSize();
 }
 
-function brushTimeSetTimeout(ms) {}
+function brushTimeSetTimeout(ms) {
+  setTimeout(switchToBrush, ms);
+}
 
 // Create Canvas
 function createCanvas() {
