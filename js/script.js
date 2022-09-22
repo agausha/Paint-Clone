@@ -63,6 +63,8 @@ function switchToBrush() {
   displayBrushSize();
 }
 
+function brushTimeSetTimeout(ms) {}
+
 // Create Canvas
 function createCanvas() {
   canvas.width = window.innerWidth;
