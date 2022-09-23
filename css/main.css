@@ -140,9 +140,8 @@ canvas#canvas {
 .brush {
   background-color: hsl(0deg, 0%, 45%);
   height: 44px;
-  width: 345px;
+  width: 370px;
 }
-
 .brush > * {
   margin-left: 10px;
 }

@@ -66,11 +66,11 @@
 .brush {
   background-color: $brush-color;
   height: 44px;
-  width: 345px;
-}
+  width: 370px;
 
-.brush > * {
-  margin-left: 10px;
+  & > * {
+    margin-left: 10px;
+  }
 }
 
 .size {
